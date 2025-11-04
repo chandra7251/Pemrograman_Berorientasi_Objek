@@ -5,10 +5,10 @@ namespace App\Math;
 class LuasLingkaran {
 
     public const phi = 3.14;
-    protected int $jari;
+    public int $jari;
     
     public function __construct($isiJari = 1) {
-        $this->jari = $isiJari; //10
+        $this->jari = $isiJari;
     }
 
     public function tampil($nama = 'ban') {
@@ -26,4 +26,3 @@ class LuasLingkaran {
         echo "udah ah cape";
     }
 }
-
